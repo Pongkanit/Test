@@ -26,6 +26,7 @@ public class AutoClicker {
     private String dateToday;
     public AutoClicker() {
         try {
+            System.out.println("what is just happen?");
             robot = new Robot();
         } catch (Exception e) {
             e.printStackTrace();
